@@ -56,3 +56,12 @@ app.use('/', index);
 
 
 module.exports = app;
+
+/*
+nvm is not compatible with the npm config "prefix" option: currently set to ""
+Run `npm config delete prefix` or `nvm use --delete-prefix v14.15.4` to unset it.
+➜  lab-mongoose-movies git:(master) npm config delete prefix
+➜  lab-mongoose-movies git:(master) npm config set prefix $NVM_DIR/versions/node/v14.15.4
+➜  lab-mongoose-movies git:(master) node --version
+v10.19.0
+*/
